@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { FormAssistenza } from './assistenza.form';
+//import { FormAssistenza } from './assistenza.form';
 
 @Component({
   selector: 'app-assistenza',
@@ -12,22 +12,24 @@ export class AssistenzaComponent implements OnInit {
   constructor() { }
 
   //-----Variabili Dati Form------
-
+/* 
   id: number = 0;
   nome: string = '';
   oggetto: string = '';
   email: string = '';
-  issue: string = '';
+  issue: string = ''; */
 
 
   //----------------------------------
 
+ /*  model = new FormAssistenza(this.id, nome)
 
-  submitted: boolean = false;
 
-  onSubmit(){
+  submitted: boolean = false; */
+
+  /* onSubmit(){
     this.submitted = true;
-  }
+  } */
 
   ngOnInit(): void {
   }
