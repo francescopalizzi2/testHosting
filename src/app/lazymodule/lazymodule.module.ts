@@ -5,6 +5,7 @@ import { AssistenzaComponent } from './assistenza/assistenza.component';
 import { PianiComponent } from './piani/piani.component';
 import { LoginComponent } from './login/login.component';
 import { lazymoduleRoutingModule } from './lazymodule.routing.module';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -13,7 +14,8 @@ import { lazymoduleRoutingModule } from './lazymodule.routing.module';
     ProdottiComponent,
     AssistenzaComponent,
     PianiComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     CommonModule,
