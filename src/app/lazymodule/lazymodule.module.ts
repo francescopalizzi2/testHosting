@@ -4,6 +4,7 @@ import { ProdottiComponent } from './prodotti/prodotti.component';
 import { AssistenzaComponent } from './assistenza/assistenza.component';
 import { PianiComponent } from './piani/piani.component';
 import { LoginComponent } from './login/login.component';
+import { lazymoduleRoutingModule } from './lazymodule.routing.module';
 
 
 
@@ -15,7 +16,8 @@ import { LoginComponent } from './login/login.component';
     LoginComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    lazymoduleRoutingModule
   ]
 })
 export class LazymoduleModule { }
