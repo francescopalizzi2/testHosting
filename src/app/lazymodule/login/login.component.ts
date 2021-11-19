@@ -14,13 +14,13 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  controllaPwd(){
+  controllaPwd(pwd: any, bar: any, result: any){
     this.isHidden = false;
 
     let x = 0;
-    let password = <HTMLInputElement> document.getElementById('pwd1');
-    let barra = <HTMLInputElement> document.getElementById('barretta');
-    let res = <HTMLInputElement> document.getElementById("result");
+    let password = pwd;
+    let barra = bar;
+    let res = result;
 
     //controllo numeri
     const check=/[0-9]/;
