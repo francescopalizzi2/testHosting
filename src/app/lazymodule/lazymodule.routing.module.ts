@@ -9,16 +9,11 @@ import { ProdottiComponent } from "./prodotti/prodotti.component";
 
 
 const routes: Routes = [
-    {path: '', component: HomeComponent, 
-        children: [
-            // {path: '', redirectTo: 'carosello', pathMatch: 'full'},
-            {path: 'login', component: LoginComponent},
-            {path: 'assistenza', component: AssistenzaComponent},
-            {path: 'piani', component: PianiComponent },
-            {path: 'prodotti', component: ProdottiComponent }
-        ]
-    },
-    // {path: '**', redirectTo: ''}
+    {path: '', component: HomeComponent, children: []},
+    {path: 'piani', component: PianiComponent },
+    {path: 'login', component: LoginComponent},
+    {path: 'assistenza', component: AssistenzaComponent},    
+    {path: 'prodotti', component: ProdottiComponent }
 ];
 
 @NgModule({
