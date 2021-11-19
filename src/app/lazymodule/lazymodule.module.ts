@@ -6,6 +6,7 @@ import { PianiComponent } from './piani/piani.component';
 import { LoginComponent } from './login/login.component';
 import { lazymoduleRoutingModule } from './lazymodule.routing.module';
 import { HomeComponent } from './home/home.component';
+import { FreeTrialComponent } from './free-trial/free-trial.component';
 
 
 
@@ -15,7 +16,8 @@ import { HomeComponent } from './home/home.component';
     AssistenzaComponent,
     PianiComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    FreeTrialComponent
   ],
   imports: [
     CommonModule,
